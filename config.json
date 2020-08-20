@@ -1,0 +1,23 @@
+{
+    "ip_addr" : "192.168.1.21",
+    "subnet" : "255.255.255.0",
+    "default_gateway" : "192.168.1.254",
+    "dns_srv" : "192.168.1.254",
+    "wifi_ssid" : "jalanara_2.4",
+    "wifi_pw" : "hornbill",
+    "mqtt_broker" : "192.168.1.12",
+    "LED" : {},
+    "DHT22" : {"name" : "dht22sense",
+               "pin" : 5,
+               "measure_dly" : 5000
+               },
+    "PIR" : {"name" : "PIRsense",
+             "pin" : 4
+             },
+    "HTTP" : {"name" : "httpsrv",
+              "listen_addr" : "0.0.0.0",
+              "port" : 80
+              },
+    "running_led_dly" : 5000,
+    "main_sleep" : 7800
+}
